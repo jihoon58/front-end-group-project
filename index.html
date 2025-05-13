@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="10가지 질문으로 알아보는 나만의 연애 성향 테스트">
+    <meta name="keywords" content="연애 성향 테스트, 심리 테스트, 레드벨벳, 연애 심리">
+    <title>연애 성향 테스트</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 헤더 -->
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img class="logo" src="images/logo.jpg" alt="레드벨벳 로고 이미지" width="150">
+            </a>
+        </div>
+    </header>
+
+    <!-- 메인 컨텐츠 -->
+    <main>
+        <article class="main-section">
+            <h1>연애 성향 테스트</h1>
+            <p class="subtitle">n문제로 알아보는 <strong>나의 연애 심리</strong></p>
+
+            <figure class="main-image-container">
+                <img class="main-img" src="images/main-image.png" alt="연애 성향 테스트 메인 이미지" width="400">
+            </figure>
+
+            <section class="intro-text">
+                <p>본인의 연애 성향이 어떤지 궁금하다고요?<br>
+                   지금 연애중이지만, 본인의 연애 성향이 어떤지 알고 싶다고요?<br>
+                   그렇다면 잘 찾아오셨습니다!<br>
+                   저희 레드벨벳에서 본인의 연애 성향을 확실하게 진단해드리겠습니다!
+                </p>
+            </section>
+
+            <!-- 시작 버튼 -->
+            <section class="start-section">
+                <button class="start-btn hover-effect" onclick="startTest()" aria-label="테스트 시작하기">시작하기</button>
+            </section>
+        </article>
+    </main>
+
+    <!-- 푸터 -->
+    <footer>
+        <p>&copy; 2025 레드벨벳 연애 성향 테스트. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function startTest() {
+            window.location.href = "quiz.html?id=1";
+        }
+    </script>
+</body>
+</html>
